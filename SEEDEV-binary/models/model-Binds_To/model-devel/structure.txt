@@ -1,0 +1,19 @@
+ENTITY Box
+ENTITY Development_Phase
+ENTITY Environmental_Factor
+ENTITY Gene
+ENTITY Gene_Family
+ENTITY Genotype
+ENTITY Hormone
+ENTITY Pathway
+ENTITY Promoter
+ENTITY Protein
+ENTITY Protein_Complex
+ENTITY Protein_Domain
+ENTITY Protein_Family
+ENTITY RNA
+ENTITY Regulatory_Network
+ENTITY Tissue
+RELATION Binds_To directed	Functional_Molecule Protein,Protein_Domain,Protein_Family	Molecule Box,Gene,Promoter,Protein,Protein_Complex,Protein_Domain,Protein_Family
+TARGET INTERACTION	Binds_To
+GIVEN ENTITY	Box,Development_Phase,Environmental_Factor,Gene,Gene_Family,Genotype,Hormone,Pathway,Promoter,Protein,Protein_Complex,Protein_Domain,Protein_Family,RNA,Regulatory_Network,Tissue

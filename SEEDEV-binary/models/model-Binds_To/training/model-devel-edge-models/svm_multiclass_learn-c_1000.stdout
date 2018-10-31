@@ -1,0 +1,56 @@
+Reading training examples... (2935 examples) done
+Training set properties: 67671 features, 2 classes
+Iter 1: .........*(NumConst=1, SV=1, CEps=100.0000, QPEps=0.0000)
+Iter 2: .........*(NumConst=2, SV=1, CEps=22.1455, QPEps=0.0000)
+Iter 3: *(NumConst=3, SV=1, CEps=7.2732, QPEps=3.5243)
+Iter 4: *(NumConst=4, SV=3, CEps=7.2564, QPEps=0.0001)
+Iter 5: *(NumConst=5, SV=4, CEps=42.3025, QPEps=0.0006)
+Iter 6: *(NumConst=6, SV=3, CEps=15.8259, QPEps=0.0055)
+Iter 7: *(NumConst=7, SV=3, CEps=10.3786, QPEps=0.0077)
+Iter 8: *(NumConst=8, SV=4, CEps=4.9901, QPEps=1.8406)
+Iter 9: *(NumConst=9, SV=4, CEps=6.7553, QPEps=0.0002)
+Iter 10: *(NumConst=10, SV=3, CEps=2.8201, QPEps=0.0000)
+Iter 11: .........*(NumConst=11, SV=4, CEps=2.2861, QPEps=0.0001)
+Iter 12: *(NumConst=12, SV=4, CEps=1.1976, QPEps=0.0000)
+Iter 13: *(NumConst=13, SV=5, CEps=1.1477, QPEps=0.0000)
+Iter 14: *(NumConst=14, SV=5, CEps=0.9407, QPEps=0.0000)
+Iter 15: *(NumConst=15, SV=6, CEps=1.0877, QPEps=0.2156)
+Iter 16: *(NumConst=16, SV=6, CEps=0.6248, QPEps=0.0000)
+Iter 17: *(NumConst=17, SV=6, CEps=0.5753, QPEps=0.0000)
+Iter 18: *(NumConst=18, SV=7, CEps=0.4888, QPEps=0.0000)
+Iter 19: *(NumConst=19, SV=7, CEps=0.4292, QPEps=0.0000)
+Iter 20: *(NumConst=20, SV=8, CEps=0.4029, QPEps=0.0000)
+Iter 21: *(NumConst=21, SV=9, CEps=0.3482, QPEps=0.1435)
+Iter 22: *(NumConst=22, SV=9, CEps=0.3189, QPEps=0.0000)
+Iter 23: *(NumConst=23, SV=10, CEps=0.2579, QPEps=0.0247)
+Iter 24: .........*(NumConst=24, SV=9, CEps=0.2217, QPEps=0.0069)
+Iter 25: *(NumConst=25, SV=10, CEps=0.1938, QPEps=0.0000)
+Iter 26: *(NumConst=26, SV=10, CEps=0.1921, QPEps=0.0000)
+Iter 27: *(NumConst=27, SV=11, CEps=0.1665, QPEps=0.0181)
+Iter 28: *(NumConst=28, SV=12, CEps=0.1560, QPEps=0.0408)
+Iter 29: *(NumConst=29, SV=12, CEps=0.1045, QPEps=0.0229)
+Iter 30: *(NumConst=30, SV=12, CEps=0.1130, QPEps=0.0485)
+Iter 31: *(NumConst=31, SV=13, CEps=0.1050, QPEps=0.0473)
+Iter 32: .........(NumConst=31, SV=13, CEps=0.0864, QPEps=0.0473)
+Final epsilon on KKT-Conditions: 0.08635
+Upper bound on duality gap: 84.43974
+Dual objective value: dval=1996.24119
+Primal objective value: pval=2080.68093
+Total number of constraints in final working set: 31 (of 31)
+Number of iterations: 32
+Number of calls to 'find_most_violated_constraint': 14675
+Number of SV: 13 
+Norm of weight vector: |w|=43.07901
+Value of slack variable (on working set): xi=1.09784
+Value of slack variable (global): xi=1.15278
+Norm of longest difference vector: ||Psi(x,y)-Psi(x,ybar)||=40.95879
+Runtime in cpu-seconds: 0.27
+Final number of constraints in cache: 5870
+Compacting linear model...done
+Writing learned model...done
+Reading model...done.
+Reading test examples... (1393 examples) done.
+Classifying test examples...done
+Runtime (without IO) in cpu-seconds: 0.00
+Average loss on test set: 1.2204
+Zero/one-error on test set: 1.22% (1376 correct, 17 incorrect, 1393 total)

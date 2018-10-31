@@ -1,0 +1,6 @@
+fold,class,positives,negatives,true positives,false positives,true negatives,false negatives,precision,recall,f-score,AUC
+,neg,6996,0,6996,0,0,0,1.0,1.0,1.0,N/A
+,micro,0,6996,0,0,6996,0,0.0,0.0,0,N/A
+,macro,0,0,0,0,0,0,0.0,0.0,0.0,N/A
+,untyped,0,6996,0,0,6996,0,0.0,0.0,0,N/A
+,untyped undirected,0,0,0,0,0,0,,,,N/A

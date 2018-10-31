@@ -1,0 +1,104 @@
+[16:51:53 31/10]	Opening log /home/mba/homemaiage/Documents/OpenMinTed/TEES_HOME/projects/SEEDEV-binary/corpus/train/i-train-pped-Composes_Primary_Structure.xml-log.txt at Wed Oct 31 16:51:53 2018
+####### Log opened at Wed Oct 31 16:51:53 2018 #######
+Command line: /home/mba/homemaiage/Documents/OpenMinTed/TEES_HOME/projects/SEEDEV-binary/../../TEES-Alvis/preprocess.py -i /home/mba/homemaiage/Documents/OpenMinTed/TEES_HOME/projects/SEEDEV-binary/corpus/BioNLP-ST-2016_SeeDev-binary_train/ -o /home/mba/homemaiage/Documents/OpenMinTed/TEES_HOME/projects/SEEDEV-binary/corpus/train/i-train-pped-Composes_Primary_Structure.xml --steps LOAD,GENIA_SPLITTER,BLLIP_BIO,STANFORD_CONVERT,SPLIT_NAMES,FIND_HEADS,SAVE
+[16:51:53 31/10]	Preprocessor steps: ['LOAD', 'GENIA_SPLITTER', 'BLLIP_BIO', 'STANFORD_CONVERT', 'SPLIT_NAMES', 'FIND_HEADS', 'SAVE']
+[16:51:53 31/10]	* Preprocessor:PROCESS(ENTER) *
+[16:51:53 31/10]	=== ENTER STEP Preprocessor:PROCESS:LOAD ===
+[16:51:53 31/10]	Running step LOAD with arguments {'corpusName': None, 'output': None, 'dataSetNames': None, 'extensions': None, 'input': '/home/mba/homemaiage/Documents/OpenMinTed/TEES_HOME/projects/SEEDEV-binary/corpus/BioNLP-ST-2016_SeeDev-binary_train/'}
+[16:51:53 31/10]	Converting ST-format to Interaction XML
+[16:51:53 31/10]	Checking source directories: [{'path': '/home/mba/homemaiage/Documents/OpenMinTed/TEES_HOME/projects/SEEDEV-binary/corpus/BioNLP-ST-2016_SeeDev-binary_train/', 'extensions': set(['a1', 'txt', 'a2']), 'dataset': None}]
+[16:51:53 31/10]	Reading /home/mba/homemaiage/Documents/OpenMinTed/TEES_HOME/projects/SEEDEV-binary/corpus/BioNLP-ST-2016_SeeDev-binary_train/
+[16:52:00 31/10]	39 documents
+[16:52:00 31/10]	Resolving equivalences
+[16:52:00 31/10]	Duplication created 0 new events (new total 20 events)
+[16:52:00 31/10]	=== EXIT STEP LOAD time: 0:00:07.224407 ===
+[16:52:00 31/10]	=== ENTER STEP Preprocessor:PROCESS:GENIA_SPLITTER ===
+[16:52:00 31/10]	Running step GENIA_SPLITTER with arguments {'debug': False, 'input': <ElementTree object at 0x7fbc54579f90>, 'postProcess': True, 'output': None}
+[16:52:00 31/10]	Loading corpus <ElementTree object at 0x7fbc54579f90>
+[16:52:00 31/10]	Corpus file loaded
+[16:52:00 31/10]	Running GENIA Sentence Splitter /home/mba/.tees/tools/geniass (Using post-processing)
+[16:52:02 31/10]	Splitting Documents (TEES.d38): 100.00 % (0:0:1.933)
+[16:52:02 31/10]	Sentence splitting created 1065 sentences
+[16:52:02 31/10]	Redivided 100 sentences
+[16:52:02 31/10]	=== EXIT STEP GENIA_SPLITTER time: 0:00:02.000869 ===
+[16:52:02 31/10]	=== ENTER STEP Preprocessor:PROCESS:BLLIP_BIO ===
+[16:52:02 31/10]	Running step BLLIP_BIO with arguments {'pathBioModel': 'AUTO', 'requireEntities': False, 'output': None, 'debug': False, 'input': <ElementTree object at 0x7fbc54579f90>, 'parseName': 'McCC'}
+[16:52:02 31/10]	BLLIP parser
+[16:52:02 31/10]	Loading corpus <ElementTree object at 0x7fbc54579f90>
+[16:52:02 31/10]	Corpus file loaded
+[16:52:02 31/10]	Parser does the tokenization
+[16:52:02 31/10]	BLLIP parser at: /home/mba/.tees/tools/BLLIP/dmcc-bllip-parser-558adf6
+[16:52:02 31/10]	Biomodel at: /home/mba/.tees/tools/BLLIP/biomodel
+[16:52:02 31/10]	Running BLLIP parser with tokenization
+[16:52:02 31/10]	1st Stage arguments: ['first-stage/PARSE/parseIt', '-l999', '-N50', '/home/mba/.tees/tools/BLLIP/biomodel/parser/']
+[16:52:02 31/10]	2nd Stage arguments: ['second-stage/programs/features/best-parses', '-l', '/home/mba/.tees/tools/BLLIP/biomodel/reranker/features.gz', '/home/mba/.tees/tools/BLLIP/biomodel/reranker/weights.gz']
+[16:54:59 31/10]	Parsing: 100.00 % (0:2:56.955)
+[16:54:59 31/10]	Processed succesfully all sentences
+[16:54:59 31/10]	Inserting parses
+[16:55:00 31/10]	Inserting elements for (TEES.d38.s14): 100.00 % (0:0:0)
+[16:55:00 31/10]	Penn parse statistics: {'tokens-parse': 19271, 'sentences-with-penn-tree': 1065, 'tokens-elements': 19271, 'input-offsets': 0, 'input-tokens': 30, 'sentences-with-tokens': 1065, 'sentences': 1065, 'tokens-exact-match': 19271}
+[16:55:00 31/10]	Parsed 1065 sentences
+[16:55:00 31/10]	All sentences had a Penn tree
+[16:55:00 31/10]	=== EXIT STEP BLLIP_BIO time: 0:02:57.766356 ===
+[16:55:00 31/10]	=== ENTER STEP Preprocessor:PROCESS:STANFORD_CONVERT ===
+[16:55:00 31/10]	Running step STANFORD_CONVERT with arguments {'debug': False, 'outputFormat': None, 'input': <ElementTree object at 0x7fbc54579f90>, 'parserName': 'McCC', 'memory': None, 'action': 'convert', 'output': None}
+[16:55:00 31/10]	Loading corpus <ElementTree object at 0x7fbc54579f90>
+[16:55:00 31/10]	Corpus file loaded
+[16:55:00 31/10]	Running Stanford conversion
+[16:55:00 31/10]	Stanford tools at: /home/mba/.tees/tools/stanford-parser-2012-03-09
+[16:55:00 31/10]	Stanford tools arguments: java -mx500m -cp stanford-parser.jar edu.stanford.nlp.trees.EnglishGrammaticalStructure -encoding utf8 -CCprocessed -keepPunct -treeFile
+[16:55:19 31/10]	Stanford (convert): 100.00 % (0:0:18.377)
+[16:55:19 31/10]	Processed succesfully all sentences
+[16:55:20 31/10]	Inserting elements for (TEES.d38.s14): 100.00 % (0:0:0)
+[16:55:20 31/10]	Dependency parse statistics: {'deps-total': 17422, 'dep-tokens-total': 16644, 'sentences-with-deps': 1065, 'sentences': 1065, 'deps-root': 1065, 'dep-tokens-aligned': 16644, 'deps-elements': 16357}
+[16:55:20 31/10]	Warning, 1065 dependencies could not be aligned
+[16:55:20 31/10]	=== EXIT STEP STANFORD_CONVERT time: 0:00:19.330823 ===
+[16:55:20 31/10]	=== ENTER STEP Preprocessor:PROCESS:SPLIT_NAMES ===
+[16:55:20 31/10]	Running step SPLIT_NAMES with arguments {'input': <ElementTree object at 0x7fbc54579f90>, 'parseName': 'McCC', 'removeOld': True, 'output': None}
+[16:55:20 31/10]	Protein Name Splitter
+[16:55:20 31/10]	Splitting names (TEES.d1.s9): 5.16 % (0:0:0.016) !
+[16:55:20 31/10]	!
+[16:55:20 31/10]	!
+[16:55:20 31/10]	Splitting names (TEES.d6.s20): 20.38 % (0:0:0.049) !
+[16:55:20 31/10]	!
+[16:55:20 31/10]	!
+[16:55:20 31/10]	!
+[16:55:20 31/10]	!
+[16:55:20 31/10]	!
+[16:55:20 31/10]	!
+[16:55:20 31/10]	!
+[16:55:20 31/10]	Splitting names (TEES.d7.s41): 25.45 % (0:0:0.057) !
+[16:55:20 31/10]	!
+[16:55:20 31/10]	!
+[16:55:20 31/10]	!
+[16:55:20 31/10]	!
+[16:55:20 31/10]	Splitting names (TEES.d17.s98): 66.01 % (0:0:0.173) !
+[16:55:20 31/10]	!
+[16:55:20 31/10]	Splitting names (TEES.d19.s8): 71.08 % (0:0:0.192)  !
+[16:55:20 31/10]	!
+[16:55:20 31/10]	!
+[16:55:20 31/10]	!
+[16:55:20 31/10]	Splitting names (TEES.d21.s15): 76.15 % (0:0:0.208) !
+[16:55:20 31/10]	!
+[16:55:20 31/10]	Splitting names (TEES.d25.s3): 81.22 % (0:0:0.231)  !
+[16:55:20 31/10]	Splitting names (TEES.d29.s1): 86.29 % (0:0:0.256) !
+[16:55:20 31/10]	!
+[16:55:20 31/10]	Splitting names (TEES.d35.s10): 96.43 % (0:0:0.289) !
+[16:55:20 31/10]	Splitting names (TEES.d38.s14): 100.00 % (0:0:0.301)
+[16:55:20 31/10]	Tokenization missing from 0 sentences
+[16:55:20 31/10]	=== EXIT STEP SPLIT_NAMES time: 0:00:00.324305 ===
+[16:55:20 31/10]	=== ENTER STEP Preprocessor:PROCESS:FIND_HEADS ===
+[16:55:20 31/10]	Running step FIND_HEADS with arguments {'parse': 'McCC', 'removeExisting': True, 'input': <ElementTree object at 0x7fbc54579f90>, 'output': None}
+[16:55:20 31/10]	Removing existing head offsets
+[16:55:20 31/10]	Removed head offsets from 0 entities
+[16:55:20 31/10]	Determining head offsets using parse McCC and tokenization None
+[16:55:20 31/10]	39 documents, 1065 sentences
+[16:55:21 31/10]	Making sentence graphs (TEES.d38.s14): 100.00 % (0:0:0.673)
+[16:55:21 31/10]	Skipped 4 duplicate interaction edges in SentenceGraphs
+[16:55:21 31/10]	=== EXIT STEP FIND_HEADS time: 0:00:01.374422 ===
+[16:55:21 31/10]	=== ENTER STEP Preprocessor:PROCESS:SAVE ===
+[16:55:21 31/10]	Running step SAVE with arguments {'input': <ElementTree object at 0x7fbc54579f90>, 'output': '/home/mba/homemaiage/Documents/OpenMinTed/TEES_HOME/projects/SEEDEV-binary/corpus/train/i-train-pped-Composes_Primary_Structure.xml'}
+[16:55:21 31/10]	Writing output to /home/mba/homemaiage/Documents/OpenMinTed/TEES_HOME/projects/SEEDEV-binary/corpus/train/i-train-pped-Composes_Primary_Structure.xml
+[16:55:25 31/10]	=== EXIT STEP SAVE: 0:00:03.514579 ===
+[16:55:25 31/10]	* Preprocessor:PROCESS(EXIT) 0:03:31.554254 *
+[16:55:25 31/10]	Stopped logging stdout to /home/mba/homemaiage/Documents/OpenMinTed/TEES_HOME/projects/SEEDEV-binary/corpus/train/i-train-pped-Composes_Primary_Structure.xml-log.txt
