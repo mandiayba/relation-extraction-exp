@@ -1,0 +1,403 @@
+Evaluation for corpus test
+  Standard pairing
+    All Relations
+      F1: 0.005277044854881266
+      Recall: 0.0026595744680851063
+      Precision: 0.3333333333333333
+      Predictions: 9
+      False Negatives: 1125
+      False Positives: 6
+    Binds_To
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 32
+      False Positives: 0
+    Composes_Primary_Structure
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 16
+      False Positives: 0
+    Composes_Protein_Complex
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 3
+      False Positives: 0
+    Exists_At_Stage
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 10
+      False Positives: 0
+    Exists_In_Genotype
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 127
+      False Positives: 0
+    Interacts_With
+      F1: 0.09523809523809525
+      Recall: 0.05555555555555555
+      Precision: 0.3333333333333333
+      Predictions: 9
+      False Negatives: 51
+      False Positives: 6
+    Is_Involved_In_Process
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 12
+      False Positives: 0
+    Is_Localized_In
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 62
+      False Positives: 0
+    Is_Member_Of_Family
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 86
+      False Positives: 0
+    Is_Protein_Domain_Of
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 31
+      False Positives: 0
+    Occurs_In_Genotype
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 14
+      False Positives: 0
+    Occurs_During
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 12
+      False Positives: 0
+    Regulates_Accumulation
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 16
+      False Positives: 0
+    Regulates_Development_Phase
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 77
+      False Positives: 0
+    Regulates_Expression
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 138
+      False Positives: 0
+    Regulates_Molecule_Activity
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 9
+      False Positives: 0
+    Regulates_Process
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 289
+      False Positives: 0
+    Regulates_Tissue_Development
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 11
+      False Positives: 0
+    Transcribes_Or_Translates_To
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 16
+      False Positives: 0
+    Is_Linked_To
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 20
+      False Positives: 0
+    Is_Functionally_Equivalent_To
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 49
+      False Positives: 0
+    Has_Sequence_Identical_To
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 44
+      False Positives: 0
+  Inside sentences
+    All Relations
+      F1: 0.005474452554744526
+      Recall: 0.0027598896044158236
+      Precision: 0.3333333333333333
+      Predictions: 9
+      False Negatives: 1084
+      False Positives: 6
+    Binds_To
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 32
+      False Positives: 0
+    Composes_Primary_Structure
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 16
+      False Positives: 0
+    Composes_Protein_Complex
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 3
+      False Positives: 0
+    Exists_At_Stage
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 10
+      False Positives: 0
+    Exists_In_Genotype
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 125
+      False Positives: 0
+    Interacts_With
+      F1: 0.09523809523809525
+      Recall: 0.05555555555555555
+      Precision: 0.3333333333333333
+      Predictions: 9
+      False Negatives: 51
+      False Positives: 6
+    Is_Involved_In_Process
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 12
+      False Positives: 0
+    Is_Localized_In
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 62
+      False Positives: 0
+    Is_Member_Of_Family
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 80
+      False Positives: 0
+    Is_Protein_Domain_Of
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 31
+      False Positives: 0
+    Occurs_In_Genotype
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 14
+      False Positives: 0
+    Occurs_During
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 8
+      False Positives: 0
+    Regulates_Accumulation
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 16
+      False Positives: 0
+    Regulates_Development_Phase
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 73
+      False Positives: 0
+    Regulates_Expression
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 129
+      False Positives: 0
+    Regulates_Molecule_Activity
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 9
+      False Positives: 0
+    Regulates_Process
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 273
+      False Positives: 0
+    Regulates_Tissue_Development
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 11
+      False Positives: 0
+    Transcribes_Or_Translates_To
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 16
+      False Positives: 0
+    Is_Linked_To
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 20
+      False Positives: 0
+    Is_Functionally_Equivalent_To
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 49
+      False Positives: 0
+    Has_Sequence_Identical_To
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 44
+      False Positives: 0
+    Is_Functionally_Equivalent_To
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 49
+      False Positives: 0
+    Has_Sequence_Identical_To
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 44
+      False Positives: 0
+  Cluster: Comparison (commutative)
+    Standard
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 93
+      False Positives: 0
+  Cluster: Where and When
+    Standard
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 225
+      False Positives: 0
+  Cluster: Function (commutative)
+    Standard
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 77
+      False Positives: 0
+  Cluster: Regulation
+    Standard
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 540
+      False Positives: 0
+  Cluster: Genic Regulation
+    Standard
+      F1: 0.07017543859649122
+      Recall: 0.03636363636363636
+      Precision: 1.0
+      Predictions: 2
+      False Negatives: 53
+      False Positives: 0
+  Cluster: Composition_Membership (commutative)
+    Standard
+      F1: NaN
+      Recall: 0.0
+      Precision: NaN
+      Predictions: 0
+      False Negatives: 180
+      False Positives: 0
+  Cluster: Interaction
+    Standard
+      F1: 0.06315789473684211
+      Recall: 0.03488372093023256
+      Precision: 0.3333333333333333
+      Predictions: 9
+      False Negatives: 83
+      False Positives: 6
+  Type confusion (commutative)
+    Standard
+      F1: 0.01407211961301671
+      Recall: 0.0070921985815602835
+      Precision: 0.8888888888888888
+      Predictions: 9
+      False Negatives: 1120
+      False Positives: 1
