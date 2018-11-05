@@ -1,0 +1,97 @@
+,Pairing,Eval,F1,Recall,Precision,Predictions,False Negative,False positive
+0,  Standard pairing,    All Relations, 0.3530127814972611, 0.2570921985815603, 0.5631067961165048, 515, 838, 225
+1,  Standard pairing,    Binds_To, 0.14285714285714285, 0.09375, 0.3, 10, 29, 7
+2,  Standard pairing,    Composes_Primary_Structure, 0.43478260869565216, 0.3125, 0.7142857142857143, 7, 11, 2
+3,  Standard pairing,    Composes_Protein_Complex, NaN, 0.0, NaN, 0, 3, 0
+4,  Standard pairing,    Exists_At_Stage, 0.14285714285714288, 0.1, 0.25, 4, 9, 3
+5,  Standard pairing,    Exists_In_Genotype, 0.37433155080213903, 0.2755905511811024, 0.5833333333333334, 60, 92, 25
+6,  Standard pairing,    Interacts_With, 0.1794871794871795, 0.12962962962962962, 0.2916666666666667, 24, 47, 17
+7,  Standard pairing,    Is_Involved_In_Process, NaN, 0.0, 0.0, 5, 12, 5
+8,  Standard pairing,    Is_Localized_In, 0.4, 0.3709677419354839, 0.4339622641509434, 53, 39, 30
+9,  Standard pairing,    Is_Member_Of_Family, 0.3779527559055118, 0.27906976744186046, 0.5853658536585366, 41, 62, 17
+10,  Standard pairing,    Is_Protein_Domain_Of, 0.2564102564102564, 0.16129032258064516, 0.625, 8, 26, 3
+11,  Standard pairing,    Occurs_In_Genotype, NaN, 0.0, NaN, 0, 14, 0
+12,  Standard pairing,    Occurs_During, NaN, 0.0, NaN, 0, 12, 0
+13,  Standard pairing,    Regulates_Accumulation, NaN, 0.0, 0.0, 12, 16, 12
+14,  Standard pairing,    Regulates_Development_Phase, 0.24000000000000002, 0.15584415584415584, 0.5217391304347826, 23, 65, 11
+15,  Standard pairing,    Regulates_Expression, 0.37696335078534027, 0.2608695652173913, 0.6792452830188679, 53, 102, 17
+16,  Standard pairing,    Regulates_Molecule_Activity, NaN, 0.0, NaN, 0, 9, 0
+17,  Standard pairing,    Regulates_Process, 0.4615384615384615, 0.3633217993079585, 0.6325301204819277, 166, 184, 61
+18,  Standard pairing,    Regulates_Tissue_Development, NaN, 0.0, NaN, 0, 11, 0
+19,  Standard pairing,    Transcribes_Or_Translates_To, 0.1111111111111111, 0.0625, 0.5, 2, 15, 1
+20,  Standard pairing,    Is_Linked_To, NaN, 0.0, 0.0, 5, 20, 5
+21,  Standard pairing,    Is_Functionally_Equivalent_To, 0.5111111111111112, 0.39655172413793105, 0.71875, 32, 35, 9
+22,  Standard pairing,    Has_Sequence_Identical_To, 0.6913580246913581, 0.5283018867924528, 1.0, 28, 25, 0
+23,  Inside sentences,    All Relations, 0.36204744069912603, 0.2667893284268629, 0.5631067961165048, 515, 797, 225
+24,  Inside sentences,    Binds_To, 0.14285714285714285, 0.09375, 0.3, 10, 29, 7
+25,  Inside sentences,    Composes_Primary_Structure, 0.43478260869565216, 0.3125, 0.7142857142857143, 7, 11, 2
+26,  Inside sentences,    Composes_Protein_Complex, NaN, 0.0, NaN, 0, 3, 0
+27,  Inside sentences,    Exists_At_Stage, 0.14285714285714288, 0.1, 0.25, 4, 9, 3
+28,  Inside sentences,    Exists_In_Genotype, 0.3783783783783784, 0.28, 0.5833333333333334, 60, 90, 25
+29,  Inside sentences,    Interacts_With, 0.1794871794871795, 0.12962962962962962, 0.2916666666666667, 24, 47, 17
+30,  Inside sentences,    Is_Involved_In_Process, NaN, 0.0, 0.0, 5, 12, 5
+31,  Inside sentences,    Is_Localized_In, 0.4, 0.3709677419354839, 0.4339622641509434, 53, 39, 30
+32,  Inside sentences,    Is_Member_Of_Family, 0.39669421487603307, 0.3, 0.5853658536585366, 41, 56, 17
+33,  Inside sentences,    Is_Protein_Domain_Of, 0.2564102564102564, 0.16129032258064516, 0.625, 8, 26, 3
+34,  Inside sentences,    Occurs_In_Genotype, NaN, 0.0, NaN, 0, 14, 0
+35,  Inside sentences,    Occurs_During, NaN, 0.0, NaN, 0, 8, 0
+36,  Inside sentences,    Regulates_Accumulation, NaN, 0.0, 0.0, 12, 16, 12
+37,  Inside sentences,    Regulates_Development_Phase, 0.25, 0.1643835616438356, 0.5217391304347826, 23, 61, 11
+38,  Inside sentences,    Regulates_Expression, 0.3956043956043956, 0.27906976744186046, 0.6792452830188679, 53, 93, 17
+39,  Inside sentences,    Regulates_Molecule_Activity, NaN, 0.0, NaN, 0, 9, 0
+40,  Inside sentences,    Regulates_Process, 0.47835990888382685, 0.38461538461538464, 0.6325301204819277, 166, 168, 61
+41,  Inside sentences,    Regulates_Tissue_Development, NaN, 0.0, NaN, 0, 11, 0
+42,  Inside sentences,    Transcribes_Or_Translates_To, 0.1111111111111111, 0.0625, 0.5, 2, 15, 1
+43,  Inside sentences,    Is_Linked_To, NaN, 0.0, 0.0, 5, 20, 5
+44,  Inside sentences,    Is_Functionally_Equivalent_To, 0.5111111111111112, 0.39655172413793105, 0.71875, 32, 35, 9
+45,  Inside sentences,    Has_Sequence_Identical_To, 0.6913580246913581, 0.5283018867924528, 1.0, 28, 25, 0
+46,  Inside sentences,    Is_Functionally_Equivalent_To, 0.5111111111111112, 0.39655172413793105, 0.71875, 32, 35, 9
+47,  Inside sentences,    Has_Sequence_Identical_To, 0.6913580246913581, 0.5283018867924528, 1.0, 28, 25, 0
+48,  Cluster Comparison (commutative),    Standard, 0.48888888888888893, 0.3548387096774194, 0.7857142857142857, 42, 60, 9
+49,  Cluster Where and When,    Standard, 0.005847953216374269, 0.0044444444444444444, 0.008547008547008548, 117, 224, 116
+50,  Cluster Function (commutative),    Standard, 0.11214953271028039, 0.07792207792207792, 0.2, 30, 71, 24
+51,  Cluster Regulation,    Standard, 0.3853904282115869, 0.2833333333333333, 0.6023622047244095, 254, 387, 101
+52,  Cluster Genic Regulation,    Standard, 0.3055555555555555, 0.2, 0.6470588235294118, 17, 44, 6
+53,  Cluster Composition_Membership (commutative),    Standard, 0.34509803921568627, 0.24444444444444444, 0.5866666666666667, 75, 136, 31
+54,  Cluster Interaction,    Standard, 0.18333333333333335, 0.12790697674418605, 0.3235294117647059, 34, 75, 23
+55,  Type confusion (commutative),    Standard, 0.3944004869141814, 0.2872340425531915, 0.629126213592233, 515, 804, 191
+56,1By1Standard pairing,    Binds_To, 0.17777777777777778, 0.125, 0.3076923076923077, 13, 28, 9
+57,1By1Standard pairing,    Binds_To, 0.17777777777777778, 0.125, 0.3076923076923077, 13, 28, 9
+58,1By1Standard pairing,    Composes_Primary_Structure, NaN, 0.0, 0.0, 2, 16, 2
+59,1By1Standard pairing,    Composes_Primary_Structure, NaN, 0.0, 0.0, 2, 16, 2
+60,1By1Standard pairing,    Exists_At_Stage, NaN, 0.0, NaN, 0, 10, 0
+61,1By1Standard pairing,    Exists_At_Stage, NaN, 0.0, NaN, 0, 10, 0
+62,1By1Standard pairing,    Exists_In_Genotype, 0.3118279569892473, 0.2283464566929134, 0.4915254237288136, 59, 98, 30
+63,1By1Standard pairing,    Exists_In_Genotype, 0.31521739130434784, 0.232, 0.4915254237288136, 59, 96, 30
+64,1By1Standard pairing,    Has_Sequence_Identical_To, 0.163265306122449, 0.08888888888888889, 1.0, 4, 41, 0
+65,1By1Standard pairing,    Has_Sequence_Identical_To, 0.163265306122449, 0.08888888888888889, 1.0, 4, 41, 0
+66,1By1Standard pairing,    Has_Sequence_Identical_To, 0.163265306122449, 0.08888888888888889, 1.0, 4, 41, 0
+67,1By1Standard pairing,    Interacts_With, 0.09523809523809525, 0.05555555555555555, 0.3333333333333333, 9, 51, 6
+68,1By1Standard pairing,    Interacts_With, 0.09523809523809525, 0.05555555555555555, 0.3333333333333333, 9, 51, 6
+69,1By1Standard pairing,    Is_Functionally_Equivalent_To, 0.1875, 0.11320754716981132, 0.5454545454545454, 11, 47, 5
+70,1By1Standard pairing,    Is_Functionally_Equivalent_To, 0.1875, 0.11320754716981132, 0.5454545454545454, 11, 47, 5
+71,1By1Standard pairing,    Is_Functionally_Equivalent_To, 0.1875, 0.11320754716981132, 0.5454545454545454, 11, 47, 5
+72,1By1Standard pairing,    Is_Involved_In_Process, NaN, 0.0, NaN, 0, 12, 0
+73,1By1Standard pairing,    Is_Involved_In_Process, NaN, 0.0, NaN, 0, 12, 0
+74,1By1Standard pairing,    Is_Linked_To, NaN, 0.0, NaN, 0, 20, 0
+75,1By1Standard pairing,    Is_Linked_To, NaN, 0.0, NaN, 0, 20, 0
+76,1By1Standard pairing,    Is_Localized_In, 0.42990654205607476, 0.3709677419354839, 0.5111111111111111, 45, 39, 22
+77,1By1Standard pairing,    Is_Localized_In, 0.42990654205607476, 0.3709677419354839, 0.5111111111111111, 45, 39, 22
+78,1By1Standard pairing,    Is_Member_Of_Family, 0.33898305084745767, 0.23255813953488372, 0.625, 32, 66, 12
+79,1By1Standard pairing,    Is_Member_Of_Family, 0.35714285714285715, 0.25, 0.625, 32, 60, 12
+80,1By1Standard pairing,    Is_Protein_Domain_Of, 0.47058823529411764, 0.3870967741935484, 0.6, 20, 19, 8
+81,1By1Standard pairing,    Is_Protein_Domain_Of, 0.47058823529411764, 0.3870967741935484, 0.6, 20, 19, 8
+82,1By1Standard pairing,    Occurs_In_Genotype, NaN, 0.0, NaN, 0, 14, 0
+83,1By1Standard pairing,    Occurs_In_Genotype, NaN, 0.0, NaN, 0, 14, 0
+84,1By1Standard pairing,    Regulates_Accumulation, 0.10526315789473684, 0.0625, 0.3333333333333333, 3, 15, 2
+85,1By1Standard pairing,    Regulates_Accumulation, 0.10526315789473684, 0.0625, 0.3333333333333333, 3, 15, 2
+86,1By1Standard pairing,    Regulates_Development_Phase, 0.16494845360824742, 0.1038961038961039, 0.4, 20, 69, 12
+87,1By1Standard pairing,    Regulates_Development_Phase, 0.17204301075268816, 0.1095890410958904, 0.4, 20, 65, 12
+88,1By1Standard pairing,    Regulates_Expression, 0.3222222222222222, 0.21014492753623187, 0.6904761904761905, 42, 109, 13
+89,1By1Standard pairing,    Regulates_Expression, 0.33918128654970764, 0.2248062015503876, 0.6904761904761905, 42, 100, 13
+90,1By1Standard pairing,    Regulates_Process, 0.45495495495495497, 0.3494809688581315, 0.6516129032258065, 155, 188, 54
+91,1By1Standard pairing,    Regulates_Process, 0.4719626168224299, 0.36996336996337, 0.6516129032258065, 155, 172, 54
+92,1By1Standard pairing,    Regulates_Tissue_Development, NaN, 0.0, NaN, 0, 11, 0
+93,1By1Standard pairing,    Regulates_Tissue_Development, NaN, 0.0, NaN, 0, 11, 0
+94,1By1Standard pairing,    Transcribes_Or_Translates_To, 0.38095238095238093, 0.25, 0.8, 5, 12, 1
+95,1By1Standard pairing,    Transcribes_Or_Translates_To, 0.38095238095238093, 0.25, 0.8, 5, 12, 1
