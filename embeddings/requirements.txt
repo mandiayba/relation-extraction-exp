@@ -1,0 +1,18 @@
+# requrements 
+brewer2mpl
+chainer
+gitpython
+numpy
+nltk
+pandas
+progressbar2
+matplotlib
+scipy
+sklearn
+system-query
+tables
+traitlets
+tqdm
+requests
+vecto
+gensim
