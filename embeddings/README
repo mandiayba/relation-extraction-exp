@@ -1,0 +1,5 @@
+# eModelConvert converts Word2Vec embeddings to Contes VST
+
+supports word2vec (.bin and .txt) embeddings and also supports [vecto embeddings](https://vecto.readthedocs.io/en/docs/tutorial/getting_vectors.html).
+
+Note: no support directly for glove (.txt) embeddings; have to convert it to word2vec (.txt) embeddings (ie., use [glove-to-word2vec](https://github.com/jroakes/glove-to-word2vec) for the conversion)
